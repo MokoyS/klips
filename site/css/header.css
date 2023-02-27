@@ -1,0 +1,100 @@
+.logo {
+    width: 20px;
+}
+
+.header{ 
+    height: 100vh;
+    border-right: solid 0.5px rgb(73, 73, 73); 
+    position:fixed;
+}
+
+.header-top-logo{
+    padding-top: 15px;
+}
+
+.header-div1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.header-div2{
+    height: 100%;
+    justify-content:flex-start;
+    display: flex;
+    padding-left: 162px;
+    padding-right: 40px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header span {
+    font-size: 12px;
+}
+
+.header-top{
+    height: 100%;
+}
+
+.header-top-elem{
+    height: 100%;
+    
+}
+
+.header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 54px;
+}
+
+.header nav a {
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.home-div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-text{
+    padding-left: 20px;
+}
+
+.msg-div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.msg-text{
+    padding-left: 20px;
+}
+
+.profile-div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-text{
+    padding-left: 20px;
+}
+
+.notif-div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.notif-text{
+    padding-left: 20px;
+}
+
+.header-button {
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 100px;
+}

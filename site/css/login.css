@@ -1,0 +1,102 @@
+*{
+    font-family: 'Lexend', sans-serif;
+    background-color: #F8D958;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.top-header a{
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.input {
+    height: 45px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 0 35px;
+    background: rgba(255,255,255,0.1) ;
+    gap: 10px;
+    
+}
+
+i{  
+    padding-top: 11px;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.space {
+    color: black ;
+}
+
+.submit {
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.361) ;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+.left {
+    display: flex;
+}
+
+label a{
+    color: white;
+    text-decoration: none;
+}

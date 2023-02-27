@@ -1,0 +1,36 @@
+.bnt-upload-drop {
+    font-family: 'Lexend', sans-serif;
+    font-size: 7px;
+    background-color: #6c006c;
+    color: white;
+    box-shadow: 0px 0px 10px #6c006c;
+    border-radius: 12px; 
+    padding: 8px 25px;
+    width: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bnt-upload {
+    font-family: 'Lexend', sans-serif;
+    font-size: 10px;
+    background-color: #6c006c;
+    color: white;
+    box-shadow: 0px 0px 10px #6c006c;
+    border-radius: 12px; 
+    padding: 8px 25px;
+
+}
+
+.bnt-suivre {
+    font-family: 'Lexend', sans-serif;
+    font-size: 8px;
+    background-color: #F8D958;
+    color: white;
+    box-shadow: 0px 0px 10px #F8D958;
+    border-radius: 12px; 
+    padding: 8px 20px;
+
+}
+
